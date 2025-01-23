@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Satisfação do Cliente</title>
+    </head>
+
+    <body>
+        
+        <p>
+    <form action="/post" method="POST" >
+         
+            <section>
+                <h1>Pesquisa de satisfação</h1>
+            <p>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome"
+            placeholder="Digite seu nome">
+            </p>
+            
+            <p>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+            </p>
+            
+            <p>
+            <label for="telefone">Numero para contato: </label>
+            <input type="password" id="telefone" placeholder="DIgite seu telefone">
+            </p>
+        </section> 
+        
+        </p>
+
+        
+
+        <p>
+            
+
+            
+            <section>
+                <h2>Especifique a sua experiência conosco</h2> 
+                <h3>Como você classifica a sua estadia conosco?</h3>
+            <label>
+                <input type="radio" name="grau"> EXCELENTE 
+            </label>
+            <label>
+                <input type="radio" name="grau"> ÓTIMO 
+            </label>  
+            <label>
+                <input type="radio" name="grau"> BOM 
+            </label>  
+              
+            <label>
+                <input type="radio" name="grau"> RUIM 
+            </label>  
+            <label>
+                <input type="radio" name="grau"> PÉSSIMO 
+            </label>      
+        </p>
+
+        <p>
+        <h3>Você recomendaria este mesmo local para seus amigos?</h3>
+
+            <label>
+                
+                <input type="radio" name="recomendacao"> COM CERTEZA  
+
+                <input type="radio" name="recomendacao"> TALVEZ
+
+                <input type="radio" name="recomendacao"> NUNCA
+
+            </label>
+
+            
+        </p>
+
+        <p>
+            <h3> Selecione o Estado de sua estadia</h3>
+        
+            
+
+                <label for="estado">Estado</label>
+                <select id="estado">
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                </select>
+
+            
+
+        </p>
+
+        <p>
+            <h3>Aceita compartilhar as informações deste questionário com terceiros?</h3>
+            
+            
+           
+                <input type="checkbox" id="compatilhar"> Eu aceito compartilhar as informações com terceiros
+            
+                <label for="compartilhar"></label>
+        </section>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+        </p>        
+    </form>
+    </body>
+</html>
