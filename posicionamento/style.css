@@ -1,0 +1,107 @@
+html{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+    max-width: 1280px;
+    
+}
+header{
+    background-color: black;
+    color:aliceblue;
+    
+}
+header h1, header h2{
+    display: inline-block;
+}
+.intro h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+p{
+    text-indent: 1em;
+}
+
+h1{
+    font-size: 1.8rem;
+    
+}
+h2{
+    font-size: 1.4rem;
+    
+}
+h3{
+    font-size: 1.2rem;
+    
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+abbr{
+    font-variant: small-caps;
+}
+
+.resumo{
+    text-align: right;
+   
+}
+
+.principal p{
+    line-height: 1.5;
+}
+
+.intro{
+    height: 550px;
+}
+
+.design-archives{
+    display: none;
+}
+
+aside ul{
+    list-style-type: none;
+    
+}
+
+aside li{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.principal footer{
+    background-color: aliceblue;
+    color: black;
+    margin: 4%;
+}
+
+.principal footer a{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+.page-wrapper{
+    position: relative
+}
+
+.explanation{
+    
+
+    width: 60%;
+    margin-right: 35%;
+    border-right: solid 1px #1f295c;
+    padding-right: 2%;
+}
+
+.design-selection{
+    position:absolute;
+    top: 550px;
+    left:62%;
+    padding: 2%-horizontal; 
+
+}
