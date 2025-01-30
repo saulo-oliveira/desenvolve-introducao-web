@@ -74,6 +74,8 @@ aside li{
 .participation{
     display: flex;
     flex-wrap: wrap;
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
 }
 
 .p-titulo{
@@ -83,8 +85,7 @@ aside li{
 
 .participation p, .participation h3 {
     flex-basis: 50%;
-    border-top: red 1px solid;
-    border-bottom: red 1px solid;
+    
 }
 
 .participation h3{
