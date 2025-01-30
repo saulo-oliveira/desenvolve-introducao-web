@@ -195,5 +195,5 @@ html a:visited{
 .principal p:first-of-type::first-letter{
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
-    float:left;
+    
 }
